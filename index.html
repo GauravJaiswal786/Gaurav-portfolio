@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="hero">
+        <div class="hero-photo-wrapper">
+          <img src="images/IMG-20260125-WA0001.jpg" alt="Gaurav Jaiswal" class="hero-photo" />
+        </div>
+        <div>
+          <p class="badge">Web Developer • Designer • Problem Solver</p>
+          <h1 class="title">Hi, I’m Gaurav Jaiswal . I build clean, modern portfolio websites.</h1>
+          <p class="subtitle">I create user-focused web experiences driven by thoughtful design, fast performance, and accessible interactions. Here are my recent projects, skills, and ways to connect.</p>
+        </div>
+        <div class="card">
+          <h2>Quick facts</h2>
+          <div class="badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Responsive</span>
+          </div>
+          <p class="quick-info">Reach me at <a href="mailto:gj890618@gmail.com" id="emailLink">gj890618@gmail.com</a> or connect on <a href="https://github.com/gauravjaiswal786" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          <p><a class="project-link-button" href="https://github.com/gauravjaiswal786" target="_blank" rel="noopener noreferrer">View GitHub profile →</a></p>
+          <p><a class="project-link-button resume-button" href="resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume →</a></p>
+          <button class="theme-toggle" type="button">Toggle theme</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="grid highlight-grid">
+      <article class="card">
+        <h2>About me</h2>
+        <p>I build portfolio websites and landing pages that look polished on desktop and mobile. My workflow includes design systems, reusable components, and performance-first HTML/CSS/JavaScript.</p>
+      </article>
+      <article class="card">
+        <h2>What I do</h2>
+        <ul class="feature-list">
+          <li>Responsive website design</li>
+          <li>Modern UI/UX interactions</li>
+          <li>Static site creation and deployment</li>
+          <li>Performance and accessibility improvements</li>
+        </ul>
+      </article>
+    </section>
+    <section class="card">
+      <h2>Featured projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <strong><a href="https://gauravjaiswal786.github.io/live-weather-app/" target="_blank" rel="noopener noreferrer">Weather Application System</a></strong>
+          <p>Developed a real-time weather application with a clean, intuitive interface and seamless integration with a third-party API.</p>
+          <p><a class="project-link-button" href="https://gauravjaiswal786.github.io/live-weather-app/" target="_blank" rel="noopener noreferrer">Live demo →</a></p>
+        </div>
+        <div class="project-item">
+            <strong><a href="https://gauravjaiswal786.github.io/Advanced-To-do-Applications-/" target="_blank" rel="noopener noreferrer">Advanced Todo Applications</a></strong>
+            <p>Created a dynamic to-do list application with features like task categorization, priority levels, and drag-and-drop functionality for enhanced user experience.</p>
+          <p><a class="project-link-button" href="https://gauravjaiswal786.github.io/Advanced-To-do-Applications-/" target="_blank" rel="noopener noreferrer">Live demo →</a></p>
+        </div>
+        <div class="project-item">
+          <strong><a href="https://gauravjaiswal786.github.io/Quiz-Game-Applications/" target="_blank" rel="noopener noreferrer">Quiz Game Application</a></strong>
+          <p>Developed a modern interactive quiz application with engaging questions and real-time feedback.</p>
+          <p><a class="project-link-button" href="https://gauravjaiswal786.github.io/Quiz-Game-Applications/" target="_blank" rel="noopener noreferrer">Live demo →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-pill">HTML</span>
+        <span class="skill-pill">CSS</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">Responsive Design</span>
+        <span class="skill-pill">GitHub</span>
+        <span class="skill-pill">Python</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Feel free to reach out if you have any questions or opportunities!</p>
+      <ul class="contact-list">
+        <li class="contact-row">
+          <a class="contact-link" href="mailto:gj890618@gmail.com">gj890618@gmail.com</a>
+          <button class="copy-email" type="button" data-email="gj890618@gmail.com">Copy email</button>
+        </li>
+        <li><a class="contact-link" href="https://github.com/gauravjaiswal786" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+
+    <section class="card resume-card">
+      <h2>Resume</h2>
+      <p>You can preview the resume below or download it directly.</p>
+      <div class="resume-viewer">
+        <iframe src="resume.pdf" title="Gaurav Jaiswal Resume" loading="lazy"></iframe>
+      </div>
+      <p class="pdf-note">If the preview does not appear, <a href="resume.pdf" target="_blank" rel="noopener noreferrer">open the resume in a new tab</a>.</p>
+    </section>
+
+    <footer>© <span id="currentYear"></span> Gaurav Jaiswal. Built with HTML and CSS & JavaScript.</footer>
+  </main>
+  <script src="script.js"></script>
+  <div class="toast" id="toastMessage" aria-live="polite"></div>
+</body>
+</html>
